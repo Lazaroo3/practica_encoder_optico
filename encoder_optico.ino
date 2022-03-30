@@ -13,7 +13,7 @@ void loop(){
   if(value==LOW){
   	Serial.print("activacion de contador -->");
     contador=contador+1;
-    Serial.println(contador)
+    Serial.println(contador);
   }
-  delay(10)
+  delay(10);
 }
